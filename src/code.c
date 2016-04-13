@@ -10,7 +10,10 @@
 
 
 #ifdef	HAS_STDLIB_H
-#include	<stdlib.h>
+# include	<stdlib.h>
+# if defined(_MSC_VER) && _MSC_VER >= 1900
+#  include <corecrt_memcpy_s.h>
+# endif
 #else
 #	include "proto.h"
 	extern char	* memcpy P((char *, char *, int));
