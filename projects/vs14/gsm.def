@@ -1,0 +1,11 @@
+
+EXPORTS
+  gsm_create
+  gsm_destroy
+  gsm_print
+  gsm_option
+  gsm_encode
+  gsm_decode
+  gsm_explode
+  gsm_implode
+  

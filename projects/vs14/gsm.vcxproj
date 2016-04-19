@@ -456,6 +456,7 @@ ENDLOCAL
       <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <LargeAddressAware>true</LargeAddressAware>
+      <ModuleDefinitionFile>gsm.def</ModuleDefinitionFile>
     </Link>
     <PreBuildEvent>
       <Command>
@@ -522,6 +523,7 @@ ENDLOCAL
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>gsm.def</ModuleDefinitionFile>
     </Link>
     <PreBuildEvent>
       <Command>
@@ -593,6 +595,7 @@ ENDLOCAL
       <LargeAddressAware>true</LargeAddressAware>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>gsm.def</ModuleDefinitionFile>
     </Link>
     <PreBuildEvent>
       <Command>
@@ -663,6 +666,7 @@ ENDLOCAL
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>gsm.def</ModuleDefinitionFile>
     </Link>
     <PreBuildEvent>
       <Command>
