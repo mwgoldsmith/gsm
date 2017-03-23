@@ -9,11 +9,8 @@
 #include	"config.h"
 
 
-#ifdef	HAS_STDLIB_H
-# include	<stdlib.h>
-# if defined(_MSC_VER) && _MSC_VER >= 1900
-#  include <corecrt_memcpy_s.h>
-# endif
+#ifdef	HAS_STRING_H
+#include	<string.h>
 #else
 #	include "proto.h"
 	extern char	* memcpy P((char *, char *, int));
