@@ -28,6 +28,8 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 
-*.opendb
-*.VC.db
 .vs/
+*.VC.db
+*.opendb
+*.sdf
+*.vcxproj.user
